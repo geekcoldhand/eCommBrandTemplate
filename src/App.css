@@ -1,7 +1,7 @@
 :root {
-  --primaryLightColor: #d4e6a5;
-  --primaryColor: #476a2e;
-  --primaryDarkColor: #c02c03;
+  --primaryLightColor: #89b0b6;
+  --primaryColor: #647955;
+  --primaryDarkColor: #2f2f2f;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBackground: #f1f5f8;
@@ -71,6 +71,10 @@ img {
   font-weight: 400;
   letter-spacing: 2px;
 }
+button{
+  border-radius: 10px;
+}
+
 /* 
 ====== 
 Error
@@ -119,13 +123,18 @@ Error
   }
 }
 
+
+.add-cart:hover{
+  background-color: #8ca5d7;
+}
 .add-cart {
   color: #fff;
-  background: #17252a;
+  background: var(--primaryDarkColor);
   padding: 10px;
   margin-bottom: 10px;
   text-align: center;
   border: none;
+  border-radius: 15px;
   cursor: pointer;
   display: flex;
   align-items: center;

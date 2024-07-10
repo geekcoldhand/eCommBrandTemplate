@@ -1,9 +1,12 @@
 .heading-center {
   color: #fff;
-  background-color: #3aafa9;
+  background-color: var(--primaryDarkColor);
   min-height: 10vh;
   width: 90vvw;
   display: flex;
   align-items: center;
   padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

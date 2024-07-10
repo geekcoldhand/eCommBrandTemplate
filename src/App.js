@@ -7,8 +7,7 @@ const Cart = lazy(() => import("./pages/CartContent/CartItems"));
 const Homepage = lazy(() => import("./pages/Home/Home"));
 const Errorpage = lazy(() => import("./pages/Error/Error"));
 const Productlist = lazy(() => import("./pages/Products/ProductList"));
-const ProductDetails = lazy(() =>
-  import("./pages/SingleProduct/SingleProduct")
+const ProductDetails = lazy(() => import("./pages/SingleProduct/SingleProduct")
 );
 
 export default function App() {

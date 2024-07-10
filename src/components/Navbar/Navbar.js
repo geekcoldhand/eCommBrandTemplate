@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useGlobalContext } from "../../context/cart_context";
 import "./Navbar.css";
+import logo from "../../images/logoBlue.png";
 
 export default function Navbar() {
   const { isAuthenticated, user, loginWithRedirect, logout } = useAuth0();
@@ -11,7 +12,7 @@ export default function Navbar() {
   return (
     <div className="nav">
       <div className="nav-container">
-        <h1>Trends</h1>
+        <img src={logo} className="nav-logo"></img>
 
         <ul className="links">
           <Link to="/">

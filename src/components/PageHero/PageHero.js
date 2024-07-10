@@ -5,7 +5,7 @@ const PageHero = React.memo(function PageHero({ item, name }) {
   return (
     <div className="heading-center">
       <h3>
-        {name} / {item} Items
+        {name}
       </h3>
     </div>
   );

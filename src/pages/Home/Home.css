@@ -1,15 +1,23 @@
 button:focus {
   outline: none;
 }
-
+button{
+  border-radius: 10px;
+}
 .pic {
-  background: url("../../images/ahmed-carter-tiWcNvpQF4E-unsplash.jpg")
+  background: url("../../images/stock4.jpeg")
     no-repeat center center/cover;
+    background-position: 0 80%;
   width: 60%;
   height: 90vh;
 }
 .info {
   display: flex;
+  flex-direction: column;
+}
+.hero{
+  display: flex;
+  flex-direction: row;
 }
 
 .content {
@@ -20,7 +28,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #ecf0f1;
 }
 .content h1 {
@@ -61,6 +69,10 @@ button:focus {
   .pic {
     width: 100%;
   }
+
+  .hero{
+    flex-direction: column;
+  }
 }
 @media (max-width:400px)
 {
@@ -71,5 +83,8 @@ button:focus {
   }
   .content p{
     line-height:2rem;
+  }
+  .hero{
+    flex-direction: column;
   }
 }
