@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmark=self.webpackChunkmark||[]).push([[593],{593:(s,e,r)=>{r.r(e),r.d(e,{default:()=>c});r(43);var t=r(582),a=r(579);const c=function(){return(0,a.jsxs)("div",{className:"err",children:[(0,a.jsx)("img",{style:{height:"70vh",width:"35vw"},src:"images/Q2BAOd2.png",alt:"404 error"}),(0,a.jsx)("h3",{children:"This Page Is Not On The Map."}),(0,a.jsx)(t.N_,{to:"/products",children:(0,a.jsx)("button",{className:"button",children:"Back to Products"})})]})}}}]);
+//# sourceMappingURL=593.3a667149.chunk.js.map
