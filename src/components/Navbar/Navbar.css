@@ -18,18 +18,21 @@ a {
 }
 #shop{
   fill: #c04e4e;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
 }
 #home{
   fill: #c04e4e;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 #login{
 fill: #c04e4e;
-width: 2rem;
-height: 2rem;
+width: 1.5rem;
 }
 
 .nav {
@@ -53,13 +56,21 @@ height: 2rem;
 width: 5rem;
 height: 100%;
 margin-inline: 2rem;
+margin-bottom: .9rem;
 }
 
 .links a:hover {
   border-color: var(--primaryLightColor)
 }
 .links a {
-  border-bottom: 2px solid transparent;
+  border: 1px solid #863838;
+  background: var(--bg-color);
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px var(--shadow-color),
+              -20px -20px 60px var(--highlight-color);
+  padding: 2px;
+  transition: all 0.2s ease-in-out;
+  margin-inline: 1rem;
 }
 
 .links {
@@ -76,6 +87,11 @@ margin-inline: 2rem;
 
 .nav-link{
   color: #3a82af;
+  font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
 }
 
 .cart-icon {
@@ -148,9 +164,9 @@ nav svg {
 
 @media (min-width: 767px) {
   .nav-container {
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    height: 10vh;
+    height: 7vh;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -158,9 +174,7 @@ nav svg {
   .links a:hover {
     border-color: var(--primaryLightColor)
   }
-  .links a {
-    border-bottom: 2px solid transparent;
-  }
+
 
   .links {
     display: flex;
@@ -168,6 +182,7 @@ nav svg {
   }
   .links li {
     padding: 10px;
+    
   }
   .login {
     font-weight: bold;
@@ -191,4 +206,8 @@ nav svg {
   .nav-container{
     flex-direction: row;
   }
+
+  .links a {
+    margin-inline: .5rem;
+   }
 }

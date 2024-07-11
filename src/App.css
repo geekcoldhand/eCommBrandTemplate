@@ -189,7 +189,7 @@ Error
   transition: var(--mainTransition);
   display: grid;
   grid-template-rows: auto 1fr;
-  border-radius: var(--mainBorderRadius);
+  border-radius: 30px
 }
 .amount {
   display: flex;

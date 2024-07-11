@@ -1,8 +1,26 @@
+:root {
+  --bg-color: #e0e5ec;
+  --shadow-color: #a3b1c6;
+  --highlight-color: #ffffff;
+  --text-color: #4a4a4a;
+}
+body{
+  
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+
 button:focus {
   outline: none;
 }
 button{
-  border-radius: 10px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px var(--shadow-color),
+              -20px -20px 60px var(--highlight-color);
+             
+  background: var(--bg-color);
 }
 .pic {
   background: url("../../images/stock4.jpeg")
@@ -54,8 +72,8 @@ button{
 .content button {
   padding: 10px;
   color: #c04e4e;
-  border: 2px solid #3a82af;
-  background-color: #eaeaea;
+  border: 2px solid #863838;
+  background-color: #ecf0f1;
   cursor: pointer;
 }
 .content button:hover {
