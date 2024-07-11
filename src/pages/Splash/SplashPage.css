@@ -1,0 +1,22 @@
+#splash{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.splash-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        color: #ecf0f1;
+        font-size: 2rem;
+        text-align: center;
+  }
+  
+  .main-content{
+   
+  }

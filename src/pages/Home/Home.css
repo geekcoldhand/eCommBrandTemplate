@@ -10,6 +10,7 @@ button{
     background-position: 0 80%;
   width: 60%;
   height: 90vh;
+  border-radius: 10px;
 }
 .info {
   display: flex;
@@ -37,23 +38,24 @@ button{
 .content h1 {
   font-size: 60px;
   line-height: 1em;
+  color: #c04e4e;
 }
 .content p {
-  color: #17252a;
+  color: #863838;
 }
 .head {
   max-width: 80%;
   line-height: 3em;
   margin: 0;
   text-align: left;
-  border-top: 3px solid #c04e4e;
+  border-top: 3px solid #863838;
   padding-top: 20px;
 }
 .content button {
   padding: 10px;
-  color: #fff;
-  background-color: #c04e4e;
-  border: none;
+  color: #c04e4e;
+  border: 2px solid #3a82af;
+  background-color: #eaeaea;
   cursor: pointer;
 }
 .content button:hover {
