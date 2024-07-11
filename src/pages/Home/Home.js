@@ -7,6 +7,12 @@ import DragZone from "../../components/DragZone/DragZone";
 export default function Home() {
   return (
     <div className="info">
+    <span id="banner">
+        <div class="banner-message"> 
+        Shop our new collection!
+    </div> 
+    </span>
+
       <div className="hero">
 
       <div className="content">

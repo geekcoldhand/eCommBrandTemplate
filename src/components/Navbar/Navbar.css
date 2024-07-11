@@ -54,11 +54,12 @@ width: 1.5rem;
   height: 2vh;
 }
 .nav-logo{
-width: 5rem;
+width: 8vw;
 height: 100%;
 margin-inline: 2rem;
 margin-bottom: .9rem;
-padding-top: .8vh;
+padding-top: 1vh;
+animation: Grow 3s infinite; 
 }
 
 .links a:hover {
@@ -212,4 +213,17 @@ nav svg {
   .links a {
     margin-inline: .5rem;
    }
+}
+
+@keyframes Grow {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+ 
+  100% {
+    transform: scale(1);
+  }
 }
