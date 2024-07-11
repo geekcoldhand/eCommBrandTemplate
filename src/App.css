@@ -145,6 +145,7 @@ Error
   row-gap: 2rem;
   column-gap: 2rem;
   padding: 20px;
+  background: url("./images/backgroundNotebook.jpeg");
 }
 @media screen and (min-width: 576px) {
   .cocktails-center {

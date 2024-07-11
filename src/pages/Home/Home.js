@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Footer from "../../components/Footer/Footer";
+import DragZone from "../../components/DragZone/DragZone";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       </div>
       <div className="pic toggle"></div>
       </div>
+      <DragZone/>
       <Footer/>
     </div>
   );
