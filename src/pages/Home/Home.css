@@ -19,6 +19,9 @@ button{
   display: flex;
   flex-direction: row;
 }
+.toggle{
+  display: block;
+}
 
 .content {
   width: 40%;
@@ -43,20 +46,20 @@ button{
   line-height: 3em;
   margin: 0;
   text-align: left;
-  border-top: 3px solid #3aafa9;
+  border-top: 3px solid #c04e4e;
   padding-top: 20px;
 }
 .content button {
   padding: 10px;
   color: #fff;
-  background-color: #3aafa9;
+  background-color: #c04e4e;
   border: none;
   cursor: pointer;
 }
 .content button:hover {
-  color: #3aafa9;
+  color: #c04e4e;
   background: transparent;
-  border: 2px solid #3aafa9;
+  border: 2px solid #3a82af;
 }
 
 @media (max-width: 1119px) {
@@ -68,10 +71,19 @@ button{
   .content,
   .pic {
     width: 100%;
+    background: url("../../images/stock4.jpeg")
+    no-repeat center center/cover;
+    background-image: blur(5px);
   }
 
   .hero{
     flex-direction: column;
+  }
+  .toggle{
+    display: none;
+  }
+  .head{
+
   }
 }
 @media (max-width:400px)
@@ -87,4 +99,5 @@ button{
   .hero{
     flex-direction: column;
   }
+
 }

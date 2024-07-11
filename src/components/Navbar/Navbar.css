@@ -16,8 +16,29 @@ a {
   font-weight: 500;
   font-size: 18px;
 }
+#shop{
+  fill: #c04e4e;
+  width: 2rem;
+  height: 2rem;
+}
+#home{
+  fill: #c04e4e;
+  width: 2rem;
+  height: 2rem;
+}
+#login{
+fill: #c04e4e;
+width: 2rem;
+height: 2rem;
+}
+
 .nav {
   color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .nav-container {
@@ -29,7 +50,7 @@ a {
 .nav-logo{
 width: 5rem;
 height: 100%;
-margin-inline: 1rem;
+margin-inline: 2rem;
 }
 
 .links a:hover {
@@ -49,9 +70,12 @@ margin-inline: 1rem;
 
 .cart-icon {
   margin-left: 10px;
+  fill: #c04e4e;
+  color: #c04e4e;
 }
 
 .login {
+  
   font-weight: bold;
   color: #fff;
   background-color: var(--primaryDarkColor);
@@ -62,6 +86,7 @@ margin-inline: 1rem;
   justify-content: center;
   padding: 10px;
   border: 2px solid transparent;
+
 }
 
 .login:hover {
@@ -77,6 +102,10 @@ margin-inline: 1rem;
   display: flex;
   margin-bottom: 2px;
 }
+#user-login{
+  display: none;
+}
+
 .nav-item {
   display: block;
   position: relative;
@@ -92,13 +121,13 @@ nav svg {
   width: 1.62rem;
   height: 1.62rem;
   border-radius: 50%;
-  background-color: var(--primaryColor);
+  background-color: #eaeaea;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .total-amount {
-  color: #fff;
+  color: #c04e4e;
   margin-bottom: 0;
   font-size: 1.22rem;
 }
@@ -132,7 +161,7 @@ nav svg {
   }
   .login {
     font-weight: bold;
-    color: #fff;
+    color: #c04e4e;
     background-color: var(--primaryColor);
     border: none;
     cursor: pointer;
@@ -147,5 +176,9 @@ nav svg {
 @media only screen and (max-width: 767px) and (min-width: 350px) {
   .links a:focus{
     border:none;
+  }
+
+  .nav-container{
+    flex-direction: row;
   }
 }

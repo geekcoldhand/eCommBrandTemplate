@@ -1,9 +1,9 @@
 const data = [
   {
     id: "recZkNf2kwmdBcqd0",
-    name: "Green Top",
-    price: 25,
-    image: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+    name: "Gothic Top",
+    price: 125,
+    image: "https://i.pinimg.com/564x/ca/49/17/ca4917258708c9aed79d5f0745f1945f.jpg",
     company: "Levis",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -15,8 +15,8 @@ const data = [
   {
     id: "recEHmzvupvT8ZONH",
     name: "Floral Top",
-    price: 60,
-    image: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+    price: 160,
+    image: "https://i.pinimg.com/564x/37/c2/e1/37c2e19e4356a8d4742e1799a920a9a6.jpg",
     company: "Vero Moda",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -27,9 +27,9 @@ const data = [
   },
   {
     id: "rec5NBwZ5zCD9nfF0",
-    name: "Floral Dress",
-    price: 50,
-    image: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+    name: "Black Bootcut Denims",
+    price: 120,
+    image: "https://i.pinimg.com/564x/00/0a/8e/000a8e4e5484320823875a8f5044c736.jpg",
     company: "Only",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -39,9 +39,9 @@ const data = [
   },
   {
     id: "recd1jIVIEChmiwhe",
-    name: "Red Dress",
-    price: 70,
-    image: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+    name: "Pleated Mini skirt",
+    price: 170,
+    image: "https://i.pinimg.com/564x/57/d9/db/57d9db172854b194f957e6e7be6f076d.jpg",
     company: "Vero Moda",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -52,9 +52,9 @@ const data = [
   },
   {
     id: "recoM2MyHJGHLVi5l",
-    name: "Striped Sweater",
+    name: "Collared Sweatshirt Tee",
     price: 80,
-    image: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+    image: "https://i.pinimg.com/564x/be/ab/0f/beab0f54a11f3050d371174191584705.jpg",
     company: "Only",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -65,10 +65,10 @@ const data = [
   },
   {
     id: "recotY5Nh00DQFdkm",
-    name: "Yellow Trouser",
-    price: 20,
-    image: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-    company: "Only",
+    name: "RivetedHead Scarf",
+    price: 120,
+    image: "https://i.pinimg.com/564x/81/5d/81/815d8125392ab1cb036f7f326b88b3b1.jpg",
+    company: "GWACH Atelier SS 2025",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     category: "Casual",
@@ -78,23 +78,23 @@ const data = [
   },
   {
     id: "rec1Ntk7siEEW9ha1",
-    name: "White Top",
-    price: 40,
-    image: "https://i.ibb.co/qBcrsJg/white-vest.png",
+    name: "Lether Inverted Bustier Top",
+    price: 140,
+    image: "https://i.pinimg.com/736x/ed/a7/55/eda755cd945df2af3bac5291ef3d6a58.jpg",
     company: "Only",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    category: "Casual",
+    company: "GWACH Atelier FW 2025",
     shipping: true,
     amount: 1,
     stock: 2,
   },
   {
     id: "recNZ0koOqEmilmoz",
-    name: "Pink Sweatshirt",
-    price: 90,
-    image: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-    company: "Levis",
+    name: "Spider Web Denim Suit",
+    price: 390,
+    image: "https://i.pinimg.com/564x/9c/58/64/9c58644cc2743ccb99e1e4ba48a64081.jpg",
+    company: "GWACH Atelier",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     category: "Office",
@@ -104,10 +104,10 @@ const data = [
   },
   {
     id: "recrfxv3EwpvJwvjq",
-    name: "Brown Coat",
+    name: "Ripped Sweater",
     price: 100,
-    image: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-    company: "Only",
+    image: "https://i.pinimg.com/564x/9b/da/66/9bda66dd4079d7ac8f271d98937ec6a6.jpg",
+    company: "GWACH Atelier FW 2025",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     category: "Office",
@@ -117,10 +117,10 @@ const data = [
   },
   {
     id: "recoW8ecgjtKx2Sj2",
-    name: "Grey Jacket",
-    price: 20,
-    image: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-    company: "Vero Moda",
+    name: "Logo Ringer Tee",
+    price: 90,
+    image: "https://i.pinimg.com/564x/30/c1/0c/30c10c1d4939704c115b7e410dd855c3.jpg",
+    company: "GWACH Atelier SS 2025",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     category: "Casual",
