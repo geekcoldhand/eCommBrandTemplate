@@ -2,15 +2,15 @@
 width: 87%;
 background-color: transparent;
 border-radius: 20px;
-margin-top: 3.5rem;
+margin-top: 4.5rem;
 margin-bottom: 3.5rem;
 }
 #container {
-    background-color: hsla(240, 11%, 95%, 0.425);
+    background-color: #f1f1f46c;
     backdrop-filter: blur(3px);
     width: 100%;
     border-radius: 15px;
-    height: 60vh;
+    height: 70vh;
     border: 2px solid #333;
     display: flex;
     position: relative;
@@ -27,8 +27,10 @@ margin-bottom: 3.5rem;
 
   .macos-text{
     font-size: 14px;
-    padding-left: 40%;
+    color: #f1f1f46c;;
+ padding-right: 10%;
     white-space: nowrap;
+    margin-inline: auto;
   }
   .macos-buttons{
     width: 10px;
@@ -69,3 +71,11 @@ margin-bottom: 3.5rem;
     width: 90px;
   }
   
+  @media screen and (max-width: 768px) {
+    .shirts{
+      width: 80px;
+    }
+    .pants{
+      width: 60px;
+    }
+  }
