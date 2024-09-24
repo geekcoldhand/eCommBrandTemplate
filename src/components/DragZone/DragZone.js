@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import trioLogo from "../../images/triAtom.png";
 import shirt1 from "../../images/clothes/shirt1.png";
-import shirt2 from "../../images/clothes/shirt2.png";
+import hat1 from "../../images/clothes/hat1.png";
+import shirt4 from "../../images/clothes/shirt4.png";
+import shirt5 from "../../images/clothes/shirt5.png";
 import shirt3 from "../../images/clothes/shirt3.png";
 import pant1 from "../../images/clothes/pant1.png";
-import pant2 from "../../images/clothes/pant2.png";
+import pant5 from "../../images/clothes/pant5.png";
 import pant3 from "../../images/clothes/pant3.png";
 import vest1 from "../../images/clothes/vest1.png";
 
@@ -195,12 +197,18 @@ const DragZone = () => {
           <span className="macos-text"> Featured Projects</span>
         </div>
         <img className="box pants" src={pant1} alt="logo" />
-        <img className="box pants" src={pant2} alt="logo" />
         <img className="box pants" src={pant3} alt="logo" />
+        <img className="box pants" src={pant3} alt="logo" />
+       
+        <img className="box pants" src={pant5} alt="logo" />
+
+  
         <img className="box shirts" src={shirt1} alt="logo" />
-        <img className="box shirts" src={shirt2} alt="logo" />
+        <img className="box shirts" src={shirt4} alt="logo" />
+        <img className="box shirts" src={shirt5} alt="logo" />
         <img className="box shirts" src={shirt3} alt="logo" />
         <img className="box shirts" src={vest1} alt="logo" />
+        <img className="box shirts" src={hat1} alt="logo" />
        
         {/* Add more boxes as needed */}
       </div>

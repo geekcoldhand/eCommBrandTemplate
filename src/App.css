@@ -137,20 +137,9 @@ Error
   margin-bottom: 3.5rem;
   margin-top: 1rem;
 }
-.cocktails-center {
-  width: var(--smallWidth);
-  margin: 0 auto;
-  max-width: var(--fullWidth);
-  display: grid;
-  row-gap: 2rem;
-  column-gap: 2rem;
-  padding: 20px;
-  background: url("./images/backgroundNotebook.jpeg");
-}
+
 @media screen and (min-width: 576px) {
-  .cocktails-center {
-    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
-  }
+
 }
 
 
@@ -184,14 +173,7 @@ Error
   border: 2px solid #444;
   background-color: transparent;
 }
-.cocktail {
-  background: var(--mainWhite);
-  margin-bottom: 2rem;
-  transition: var(--mainTransition);
-  display: grid;
-  grid-template-rows: auto 1fr;
-  border-radius: 30px
-}
+
 .amount {
   display: flex;
 
@@ -200,32 +182,7 @@ Error
   padding: 5px;
   justify-content: center;
 }
-.cocktail:hover {
-  box-shadow: var(--darkShadow);
-}
-.cocktail img {
-  height: 20rem;
-  object-fit: cover;
-  border-top-left-radius: var(--mainBorderRadius);
-  border-top-right-radius: var(--mainBorderRadius);
-}
-.cocktail-footer {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-}
-.cocktail-footer h3,
-.cocktail-footer h4,
-.cocktail-footer p {
-  margin-bottom: 0.3rem;
-}
-.cocktail-footer h3 {
-  font-size: 2rem;
-}
-.cocktail-footer p {
-  color: var(--darkGrey);
-  margin-bottom: 0.5rem;
-}
+
 
 .prod-button {
   display: flex;

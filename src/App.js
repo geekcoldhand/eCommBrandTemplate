@@ -13,16 +13,16 @@ const ProductDetails = lazy(() => import("./pages/SingleProduct/SingleProduct")
 const splash = document.getElementById("splash");
 const mainContent = document.getElementById("main-content");
 
-const Splash = () => { 
-  const [showSplash, setShowSplash] = useState(true);
+// const Splash = () => { 
+//   const [showSplash, setShowSplash] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowSplash(false);
-    }, 667500);
-    return () => clearTimeout(timer);
-  }, []);
-}
+//   useEffect(() => {
+//     const timer = setTimeout(() => {
+//       setShowSplash(false);
+//     }, 667500);
+//     return () => clearTimeout(timer);
+//   }, []);
+// }
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -46,6 +46,7 @@ export default function App() {
           <Route exact path="/" component={Homepage}></Route>
           <Route exact path="/cart" component={Cart}></Route>
           <Route exact path="/products" component={Productlist}></Route>
+          <Route exact path="/about" component={Homepage}></Route>
           <Route
             exact
             path="/products/:id"

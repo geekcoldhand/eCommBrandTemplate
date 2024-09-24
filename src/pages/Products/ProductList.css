@@ -1,0 +1,48 @@
+.cocktails-center {
+    width: var(--smallWidth);
+    margin: 0 auto;
+    max-width: var(--fullWidth);
+    display: grid;
+    row-gap: 5rem;
+    column-gap: 4rem;
+    padding: 20px;
+    background: url("../../images/backgroundNotebook.jpeg");
+    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+  }
+
+  .cocktail:hover {
+    box-shadow: var(--darkShadow);
+    border-radius: 20px;
+  }
+  .cocktail img {
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: var(--mainBorderRadius);
+    border-top-right-radius: var(--mainBorderRadius);
+  }
+.cocktail{
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+}
+
+  .cocktail-footer {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cocktail-footer h3,
+  .cocktail-footer h4,
+  .cocktail-footer p {
+    margin-bottom: 0.3rem;
+    font-weight: 300;
+  }
+  .cocktail-footer h3 {
+    font-size: 2rem;
+  }
+  .cocktail-footer p {
+    color: var(--darkGrey);
+    margin-bottom: 0.5rem;
+    
+  }

@@ -1,10 +1,16 @@
+import shirt1 from "./images/clothes/shirt1.png";
+import shirt5 from "./images/clothes/shirt5.png";
+import shirt3 from "./images/clothes/shirt3.png";
+import hat1 from "./images/clothes/hat1.png";
+import pant3 from "./images/clothes/pant3.png";
+
 const data = [
   {
     id: "recZkNf2kwmdBcqd0",
     name: "Gothic Top",
     price: 125,
-    image: "https://i.pinimg.com/564x/ca/49/17/ca4917258708c9aed79d5f0745f1945f.jpg",
-    company: "Levis",
+    image: shirt1,
+    company: "GWACH Atelier FW 2024",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     category: "Casual",
@@ -16,7 +22,7 @@ const data = [
     id: "recEHmzvupvT8ZONH",
     name: "Floral Top",
     price: 160,
-    image: "https://i.pinimg.com/564x/37/c2/e1/37c2e19e4356a8d4742e1799a920a9a6.jpg",
+    image: shirt5,
     company: "Vero Moda",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -29,7 +35,7 @@ const data = [
     id: "rec5NBwZ5zCD9nfF0",
     name: "Black Bootcut Denims",
     price: 120,
-    image: "https://i.pinimg.com/564x/00/0a/8e/000a8e4e5484320823875a8f5044c736.jpg",
+    image: pant3,
     company: "Only",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -80,7 +86,7 @@ const data = [
     id: "rec1Ntk7siEEW9ha1",
     name: "Lether Inverted Bustier Top",
     price: 140,
-    image: "https://i.pinimg.com/736x/ed/a7/55/eda755cd945df2af3bac5291ef3d6a58.jpg",
+    image: shirt3,
     company: "Only",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -91,9 +97,9 @@ const data = [
   },
   {
     id: "recNZ0koOqEmilmoz",
-    name: "Spider Web Denim Suit",
-    price: 390,
-    image: "https://i.pinimg.com/564x/9c/58/64/9c58644cc2743ccb99e1e4ba48a64081.jpg",
+    name: "Polor Bear Fuax Fur Helment",
+    price: 200,
+    image: hat1,
     company: "GWACH Atelier",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",

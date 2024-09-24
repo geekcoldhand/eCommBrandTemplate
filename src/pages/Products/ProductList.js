@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useProductsContext } from "../../context/products_context";
-import AddToCart from "../../components/Cart/AddToCart";
 import "../../App.css";
+import "./ProductList.css";
 
 const ProductList = () => {
   const { products } = useProductsContext();
@@ -23,7 +23,7 @@ const ProductList = () => {
                   <h4 className="price">${price}</h4>
                 </div>
                 
-                <AddToCart product={product} />
+              
                 <Link
                   to={`/products/${id}`}
                   className="add-cart"

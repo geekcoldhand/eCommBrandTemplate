@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import CartItem from "../../components/Cart/CartItem";
 import StripePay from "../../components/Checkout/StripeCheckout";
 import "../../App.css";
+import "./CartItem.css";
 
 const CartItems = () => {
   const { cart, clear, total } = useGlobalContext();
