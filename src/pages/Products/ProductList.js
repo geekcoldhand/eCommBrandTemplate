@@ -14,29 +14,27 @@ const ProductList = () => {
           const { id, image, name, price } = product;
           return (
             <article key={id} className="cocktail">
+              <Link
+                      to={`/products/${id}`}
+                      className="add-cart"
+                    >
               <div className="img-container">
                 <img src={image} alt={name} />
-              </div>
+                </div>
+                
               <div className="cocktail-footer">
                 <div className="product">
                   <h4>{name}</h4>
-                  <h4 className="price">${price}</h4>
                 </div>
                 
               
-                <Link
-                  to={`/products/${id}`}
-                  className="add-cart"
-                  style={{
-                    color: "#17252A",
-                    background: "#fff",
-                    border: "2px solid #17252A",
-                  }}
-                >
+                
+          
                   {/*className="prod-details">*/}
-                  View
+                  
+                
+                </div>
                 </Link>
-              </div>
             </article>
           );
         })}
