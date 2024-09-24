@@ -1,18 +1,22 @@
 import shirt1 from "./images/clothes/shirt1.png";
 import shirt5 from "./images/clothes/shirt5.png";
-import shirt3 from "./images/clothes/shirt3.png";
+import shirt6 from "./images/clothes/shirt6.png";
+import vest2 from "./images/clothes/vest2.png";
 import hat1 from "./images/clothes/hat1.png";
 import pant3 from "./images/clothes/pant3.png";
+import pant4 from "./images/clothes/pant4.png";
+import pant7 from "./images/clothes/pant7.png";
+import pant6 from "./images/clothes/pant6.png";
+import jacket1 from "./images/clothes/jacket1.png";
 
 const data = [
   {
     id: "recZkNf2kwmdBcqd0",
-    name: "Gothic Top",
+    name: "Drawn Angelic Top",
     price: 125,
     image: shirt1,
     company: "GWACH Atelier FW 2024",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Casual",
     shipping: true,
     amount: 1,
@@ -20,12 +24,11 @@ const data = [
   },
   {
     id: "recEHmzvupvT8ZONH",
-    name: "Floral Top",
+    name: "Fur Collar Polo",
     price: 160,
     image: shirt5,
     company: "Vero Moda",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Office",
     shipping: true,
     amount: 1,
@@ -33,24 +36,22 @@ const data = [
   },
   {
     id: "rec5NBwZ5zCD9nfF0",
-    name: "Black Bootcut Denims",
+    name: "Black Pin-Pleated Denims",
     price: 120,
     image: pant3,
     company: "Only",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Casual",
     amount: 1,
     stock: 4,
   },
   {
     id: "recd1jIVIEChmiwhe",
-    name: "Pleated Mini skirt",
+    name: "Black Infiity Trousers",
     price: 170,
-    image: "https://i.pinimg.com/564x/57/d9/db/57d9db172854b194f957e6e7be6f076d.jpg",
+    image: pant7,
     company: "Vero Moda",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:"Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Office",
     shipping: true,
     amount: 1,
@@ -58,12 +59,11 @@ const data = [
   },
   {
     id: "recoM2MyHJGHLVi5l",
-    name: "Collared Sweatshirt Tee",
-    price: 80,
-    image: "https://i.pinimg.com/564x/be/ab/0f/beab0f54a11f3050d371174191584705.jpg",
+    name: "Star Varity Style Jacket",
+    price: 180,
+    image: jacket1,
     company: "Only",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection. This Features Start patches on the elblows and a lining inside finish.",
     category: "Office",
     shipping: true,
     amount: 1,
@@ -71,12 +71,11 @@ const data = [
   },
   {
     id: "recotY5Nh00DQFdkm",
-    name: "RivetedHead Scarf",
+    name: "Navy Bustle Denims",
     price: 120,
-    image: "https://i.pinimg.com/564x/81/5d/81/815d8125392ab1cb036f7f326b88b3b1.jpg",
+    image: pant6,
     company: "GWACH Atelier SS 2025",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Casual",
     shipping: true,
     amount: 1,
@@ -84,12 +83,11 @@ const data = [
   },
   {
     id: "rec1Ntk7siEEW9ha1",
-    name: "Lether Inverted Bustier Top",
-    price: 140,
-    image: shirt3,
+    name: "Waxed Denim Bustier Top",
+    price: 90,
+    image: vest2,
     company: "Only",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:"Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     company: "GWACH Atelier FW 2025",
     shipping: true,
     amount: 1,
@@ -101,8 +99,7 @@ const data = [
     price: 200,
     image: hat1,
     company: "GWACH Atelier",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Office",
     shipping: true,
     amount: 1,
@@ -110,12 +107,12 @@ const data = [
   },
   {
     id: "recrfxv3EwpvJwvjq",
-    name: "Ripped Sweater",
+    name: "Parachute Pinched Pants",
     price: 100,
-    image: "https://i.pinimg.com/564x/9b/da/66/9bda66dd4079d7ac8f271d98937ec6a6.jpg",
+    image: pant4,
     company: "GWACH Atelier FW 2025",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Office",
     shipping: true,
     amount: 1,
@@ -123,12 +120,12 @@ const data = [
   },
   {
     id: "recoW8ecgjtKx2Sj2",
-    name: "Logo Ringer Tee",
+    name: "Americana Dress Shirt",
     price: 90,
-    image: "https://i.pinimg.com/564x/30/c1/0c/30c10c1d4939704c115b7e410dd855c3.jpg",
+    image: shirt6,
     company: "GWACH Atelier SS 2025",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Crafted from premium fabrics, our latest piece embodies the rebellious spirit of GWACH's Fall 24 collection.",
     category: "Casual",
     amount: 1,
     stock: 5,

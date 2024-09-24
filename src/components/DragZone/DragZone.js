@@ -2,13 +2,22 @@ import React, { useEffect, useRef, useState } from 'react';
 import trioLogo from "../../images/triAtom.png";
 import shirt1 from "../../images/clothes/shirt1.png";
 import hat1 from "../../images/clothes/hat1.png";
+import hat2 from "../../images/clothes/hat2.png";
+
 import shirt4 from "../../images/clothes/shirt4.png";
 import shirt5 from "../../images/clothes/shirt5.png";
+import shirt6 from "../../images/clothes/shirt6.png";
 import shirt3 from "../../images/clothes/shirt3.png";
 import pant1 from "../../images/clothes/pant1.png";
 import pant5 from "../../images/clothes/pant5.png";
+import pant4 from "../../images/clothes/pant4.png";
+import pant6 from "../../images/clothes/pant6.png";
+import pant7 from "../../images/clothes/pant7.png";
+
+import vest2 from "../../images/clothes/vest2.png";
 import pant3 from "../../images/clothes/pant3.png";
-import vest1 from "../../images/clothes/vest1.png";
+import jacket1 from "../../images/clothes/jacket1.png";
+import jacket2 from "../../images/clothes/jacket2.png";
 
 import "./DragZone.css";
 
@@ -198,17 +207,25 @@ const DragZone = () => {
         </div>
         <img className="box pants" src={pant1} alt="logo" />
         <img className="box pants" src={pant3} alt="logo" />
-        <img className="box pants" src={pant3} alt="logo" />
-       
+        <img className="box pants" src={pant4} alt="logo" />
         <img className="box pants" src={pant5} alt="logo" />
+        <img className="box pants" src={pant6} alt="logo" />
+        <img className="box pants" src={pant7} alt="logo" />
 
   
         <img className="box shirts" src={shirt1} alt="logo" />
         <img className="box shirts" src={shirt4} alt="logo" />
         <img className="box shirts" src={shirt5} alt="logo" />
         <img className="box shirts" src={shirt3} alt="logo" />
-        <img className="box shirts" src={vest1} alt="logo" />
+        <img className="box shirts" src={shirt6} alt="logo" />
+
+        <img className="box shirts" src={vest2} alt="logo" />
+
+        <img className="box shirts" src={jacket1} alt="logo" />
+        <img className="box shirts" src={jacket2} alt="logo" />
+
         <img className="box shirts" src={hat1} alt="logo" />
+        <img className="box shirts" src={hat2} alt="logo" />
        
         {/* Add more boxes as needed */}
       </div>
